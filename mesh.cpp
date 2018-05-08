@@ -519,4 +519,6 @@ bool triangle_mesh_t::savePointAndDeformation(std::string const &path, int max_p
   }
 
   f.close(); 
+  
+  return true;
 }

@@ -89,6 +89,8 @@ class triangle_mesh_t
 
 		bool savePointMovementMagnitudeAsFeature(std::string const &path, int max_points=-1);
 
+		bool savePointAndDeformation(std::string const &path, int max_points=-1);
+
 		// operator overloading to display the mesh deformation.
 		void operator-(triangle_mesh_t const &m);
 };
